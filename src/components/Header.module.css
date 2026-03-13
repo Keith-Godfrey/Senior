@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px 10px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  flex-shrink: 0;
+}
+
+.title {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-white);
+  text-align: center;
+  flex: 1;
+  line-height: 1.2;
+}
+
+.backBtn {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--color-white);
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  min-height: var(--tap-min);
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  white-space: nowrap;
+}
+
+.backBtn:focus-visible {
+  outline-color: var(--color-white);
+}
+
+.spacer {
+  width: 90px;
+  flex-shrink: 0;
+}

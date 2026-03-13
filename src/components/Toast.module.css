@@ -1,0 +1,22 @@
+.toast {
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #222;
+  color: #fff;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  padding: 14px 28px;
+  border-radius: 40px;
+  box-shadow: var(--shadow);
+  z-index: 1000;
+  text-align: center;
+  max-width: 340px;
+  animation: fadein 0.25s ease;
+}
+
+@keyframes fadein {
+  from { opacity: 0; transform: translateX(-50%) translateY(12px); }
+  to   { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
