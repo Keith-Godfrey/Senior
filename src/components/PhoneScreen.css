@@ -1,0 +1,75 @@
+.section-heading {
+  font-size: var(--font-size-xl);
+  color: var(--color-text-primary);
+  margin-bottom: 4px;
+}
+
+.section-hint {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-base);
+  margin-bottom: 4px;
+}
+
+.contact-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-btn {
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  color: var(--color-text-primary);
+  border-radius: 18px;
+  padding: 16px;
+  min-height: 88px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-align: left;
+}
+
+.contact-btn:hover {
+  background: var(--color-border);
+}
+
+.contact-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+.contact-name {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact-phone {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+}
+
+.contact-call-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
