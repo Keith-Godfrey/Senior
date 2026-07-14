@@ -14,7 +14,7 @@ A smartphone web app designed to be easy for senior citizens to use.
 
 | Screen | Description |
 |--------|-------------|
-| 🏠 Home | 2×2 grid of large colour-coded buttons for Phone, Messages, Emergency, Settings |
+| 🏠 Home | 2×2 grid of large color-coded buttons for Phone, Messages, Emergency, Settings |
 | 📞 Phone | Contact list with large tap targets; confirmation dialog before dialling |
 | 💬 Messages | Inbox with unread badges; read, reply, delete with confirmation |
 | 🆘 Emergency | Large SOS button with two-step confirmation; emergency tips and numbers |
@@ -43,4 +43,4 @@ npm run preview
 - Confirmation modals use `role="dialog"` and `aria-modal`
 - Status toasts use `aria-live="polite"` for screen-reader announcements
 - `aria-pressed` reflects toggle button state in Settings
-- All colour pairs meet WCAG contrast requirements; High Contrast mode exceeds WCAG AAA
+- All color pairs meet WCAG contrast requirements; High Contrast mode exceeds WCAG AAA
